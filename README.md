@@ -1,21 +1,20 @@
-<p align="left">
-    <img src="./assets/grog-icon.png" align="left" width="30%">
-</p>
-<p align="left"><h1 align="left">RED-NOSES-REPORTS</h1></p>
+<div align="left" style="position: relative;">
+<img src="./assets/grog-icon.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>GROG-MARK</h1>
 <p align="left">
 	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/advent-code-repos/red-noses-reports?style=flat-square&logo=opensourceinitiative&logoColor=white&color=A931EC" alt="license">
-	<img src="https://img.shields.io/github/last-commit/advent-code-repos/red-noses-reports?style=flat-square&logo=git&logoColor=white&color=A931EC" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/advent-code-repos/red-noses-reports?style=flat-square&color=A931EC" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/advent-code-repos/red-noses-reports?style=flat-square&color=A931EC" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/its-me-mayday/grog-mark?style=flat-square&logo=opensourceinitiative&logoColor=white&color=A931EC" alt="license">
+	<img src="https://img.shields.io/github/last-commit/its-me-mayday/grog-mark?style=flat-square&logo=git&logoColor=white&color=A931EC" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/its-me-mayday/grog-mark?style=flat-square&color=A931EC" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/its-me-mayday/grog-mark?style=flat-square&color=A931EC" alt="repo-language-count">
 </p>
 <p align="left">Built with the tools and technologies:</p>
 <p align="left">
-	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=Python&logoColor=white" alt="Python">
-</p>
-<br>
+	</p>
+</div>
+<br clear="right">
 
 ## 🔗 Table of Contents
 
@@ -50,105 +49,21 @@
 ## 📁 Project Structure
 
 ```sh
-└── red-noses-reports/
+└── grog-mark/
     ├── LICENSE
     ├── README.md
-    ├── configs
-    │   └── logger.py
-    ├── controllers
-    │   ├── factories.py
-    │   └── red_nosed_report.py
-    ├── hyperfine.benchmark.md
-    ├── inputs
-    │   ├── input
-    │   └── input.example
-    ├── main.py
-    ├── models
-    │   └── report.py
-    └── services
-        ├── file_service.py
-        └── red_nosed_report.py
+    └── assets
+        └── grog-icon.png
 ```
 
 
 ### 📂 Project Index
 <details open>
-	<summary><b><code>RED-NOSES-REPORTS/</code></b></summary>
+	<summary><b><code>GROG-MARK/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/main.py'>main.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- services Submodule -->
-		<summary><b>services</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/services/red_nosed_report.py'>red_nosed_report.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/services/file_service.py'>file_service.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- models Submodule -->
-		<summary><b>models</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/models/report.py'>report.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- inputs Submodule -->
-		<summary><b>inputs</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/inputs/input.example'>input.example</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/inputs/input'>input</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- controllers Submodule -->
-		<summary><b>controllers</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/controllers/red_nosed_report.py'>red_nosed_report.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/controllers/factories.py'>factories.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- configs Submodule -->
-		<summary><b>configs</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/red-noses-reports/blob/master/configs/logger.py'>logger.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
 			</table>
 		</blockquote>
 	</details>
@@ -159,25 +74,25 @@
 
 ### ☑️ Prerequisites
 
-Before getting started with red-noses-reports, ensure your runtime environment meets the following requirements:
+Before getting started with grog-mark, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Python
+- **Programming Language:** Error detecting primary_language: {}
 
 
 ### ⚙️ Installation
 
-Install red-noses-reports using one of the following methods:
+Install grog-mark using one of the following methods:
 
 **Build from source:**
 
-1. Clone the red-noses-reports repository:
+1. Clone the grog-mark repository:
 ```sh
-❯ git clone https://github.com/advent-code-repos/red-noses-reports
+❯ git clone https://github.com/its-me-mayday/grog-mark
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd red-noses-reports
+❯ cd grog-mark
 ```
 
 3. Install the project dependencies:
@@ -187,7 +102,7 @@ echo 'INSERT-INSTALL-COMMAND-HERE'
 
 
 ### 🤖 Usage
-Run red-noses-reports using the following command:
+Run grog-mark using the following command:
 echo 'INSERT-RUN-COMMAND-HERE'
 
 ### 🧪 Testing
@@ -205,9 +120,9 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ## 🔰 Contributing
 
-- **💬 [Join the Discussions](https://github.com/advent-code-repos/red-noses-reports/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/advent-code-repos/red-noses-reports/issues)**: Submit bugs found or log feature requests for the `red-noses-reports` project.
-- **💡 [Submit Pull Requests](https://github.com/advent-code-repos/red-noses-reports/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/its-me-mayday/grog-mark/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/its-me-mayday/grog-mark/issues)**: Submit bugs found or log feature requests for the `grog-mark` project.
+- **💡 [Submit Pull Requests](https://github.com/its-me-mayday/grog-mark/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -215,7 +130,7 @@ echo 'INSERT-TEST-COMMAND-HERE'
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/advent-code-repos/red-noses-reports
+   git clone https://github.com/its-me-mayday/grog-mark
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -238,8 +153,8 @@ echo 'INSERT-TEST-COMMAND-HERE'
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/advent-code-repos/red-noses-reports/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=advent-code-repos/red-noses-reports">
+   <a href="https://github.com{/its-me-mayday/grog-mark/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=its-me-mayday/grog-mark">
    </a>
 </p>
 </details>
